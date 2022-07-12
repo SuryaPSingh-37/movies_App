@@ -1,0 +1,10 @@
+<h1>
+	Here are the results!!!!
+</h1>
+
+<% var array = data["Search"] %>
+<%	for(var i=0;i<array.length;i++){ %>
+    <li> <strong> <%=array[i].Title %></strong> - <%= array[i].Year%></li>
+<% }%>
+
+<a href="/"> Search Again!!!</a>
